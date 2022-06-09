@@ -1,0 +1,33 @@
+.ven{
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:200px;
+    width:250px;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-end;
+transition: all 1s ease;
+    margin: 10px;
+    text-align:center;
+}
+.ven-name{
+    background-color:transparent;
+    color:white;
+    position:relative;
+      margin:0;
+      padding: 0;
+      opacity: 0.5;
+}
+.venue{
+    display: flex;
+    flex-wrap:wrap;
+}
+.checked-icon{
+    background-color: transparent;
+    color:greenyellow;
+    position: relative;
+    bottom:130px;
+    transform:scale(1.5);
+    left:224px;
+    font-weight: bolder;
+}

@@ -1,0 +1,13 @@
+.type-container{
+    background-color: cyan;
+    width:200px;
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: capitalize;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    opacity: 0.5;
+}

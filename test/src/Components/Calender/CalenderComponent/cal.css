@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Dosis:wght@300;400&family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+.cal-container{
+     margin:10px  0px 10px 5px;
+     
+     justify-content: space-around;
+     transition: all 1s ease;
+}
+.days-container{
+    display: flex;
+    margin: 0;
+    width:100%;
+    flex-wrap: wrap;
+
+}
+.sub-con{
+    display:flex;
+    align-items: center;
+    width:60%;
+    margin-left:50px;
+    justify-content:center;
+    align-items: center;
+
+}
+.next-icon{
+    transition: all 1s ease-in;
+    height: 50px;
+    width: 50px;
+    font-weight: 100;
+
+}
+svg{
+    color:#fff;
+}
+
+.btn{
+ width:100px;
+ display: flex;
+ justify-content:flex-start;
+ transition: all 0.5s ease-in;
+ color:white;
+ border:none;
+background-color:gold;
+box-shadow: inset 0 0 0 rgb(142, 253, 142);
+}
+.btn:hover{
+    opacity:1;
+    padding-left: 50px;
+box-shadow: inset 250px 0 0 rgb(142, 253, 142);
+
+}
+.left{
+    justify-content: flex-end;
+}
+.left:hover{
+
+    padding-left:0;
+    padding-right: 50px ;
+}
+.date{
+    letter-spacing: 2px;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Dosis', sans-serif;
+font-family: 'Roboto', sans-serif;
+color: rgb(78, 65, 65);
+display: block;
+margin-bottom: 10px;
+font-weight:500;
+}

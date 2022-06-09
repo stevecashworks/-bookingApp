@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Dosis:wght@300;400&family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+.reciept-container{
+    width:40%;
+    position:relative;
+    top:500px;
+}
+.error{
+    background-color: pink;
+    opacity:0.8;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5px 0
+
+    
+}
+.right-pointer{
+    opacity:1;
+    transform:scale(2);
+    color: blue;
+    margin:auto 5px;
+
+}
+.error-message{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    float:right;
+}

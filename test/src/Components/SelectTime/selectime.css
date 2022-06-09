@@ -1,0 +1,11 @@
+.select-time{
+    display:flex;
+    justify-content: space-around;
+}
+.duration{
+    font-weight: lighter;
+    text-transform:none;
+}
+.time-text{
+    text-transform:capitalize;
+}

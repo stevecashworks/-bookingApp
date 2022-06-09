@@ -1,0 +1,16 @@
+export const fetch_Data="fetch";
+export const add_Payment=  'add_payment'
+export const select_venue="select_venue"
+export const select_slot="select_slot";
+export const pick_slot="pick_slot"
+export const  set_date= "set_date"
+export const set_type="set_type";
+export const set_book_start="set_book_start";
+export const set_book_end="set_book_end";
+export const add_error= 'add_error';
+export const  clear_errors="clear_errors";
+export const  set_Email= 'set_Email';
+export const set_Price= "set_price";
+export  const set_Can_Pay='set_can_pay';
+export const set_Results= "set_results";
+export const  set_Can_Book="setCanbook";

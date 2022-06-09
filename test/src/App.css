@@ -1,0 +1,30 @@
+h1{
+  box-sizing: border-box;
+  text-transform:capitalize;
+  margin:0;
+  text-align:center;
+
+}
+
+.left{
+  width:80%;
+  
+}
+.appContainer{
+  display: flex;
+  width:100%;
+}
+.app-btn{
+   letter-spacing: 2px;
+   color: white;
+   border: 0;
+   background-color:  green;
+   font-weight: bolder;
+   padding:10px;
+   font-size: 20px;
+   margin:20px auto;
+   border-radius: 20%;
+   position: relative;
+   left:200px;
+   opacity: 0.7;
+}
